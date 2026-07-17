@@ -31,3 +31,6 @@ describe('UserController', () => {
     ]);
   });
 });
+
+//Note that controller only should handle Request and Response,
+//  and not business logic. Business logic should be handled in the service layer.
